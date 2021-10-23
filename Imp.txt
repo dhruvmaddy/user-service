@@ -1,0 +1,14 @@
+user Service: http://localhost:8999/user/1311
+contact service: http://localhost:8999/contact/user/1311
+eureka:server: http://localhost:8761/
+hystrix-dashboard: http://localhost:8998/hystrix
+Api gateway: http://localhost:8999/actuator/hystrix.stream
+
+
+
+Git repo link
+user-service: https://github.com/dhruvmaddy/user-service
+contact-service: https://github.com/dhruvmaddy/contact-service
+apigateway: https://github.com/dhruvmaddy/apigateway
+hystrix-dashboard: https://github.com/dhruvmaddy/hystrix-dashboard
+eureka-server: https://github.com/dhruvmaddy/eureka-server
